@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(black, #800000,black);
+}
+#loancal {
+    width: 600px;
+    height: 400px;
+    background:linear-gradient( #800000,black);
+    color: #fff;
+    text-align: center;
+    border-radius: 50px;
+    
+}
+
+#months, #amount, #interest_rate{
+    width: 180px;
+    height: 20px;
+
+}
+
+#interest_rate {
+    margin-left: 2px;
+}
+
+h1 {
+    font-size:40px;
+} 
